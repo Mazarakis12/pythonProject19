@@ -5,7 +5,7 @@ def app():
     # Display the image
     st.image("school.png", caption="School in forest", use_column_width=True)
 
-    with st.expander("See Philosophy:"):
+    with st.expander("See more details:"):
         st.write(
             "The philosophy of European School Gr I is deeply rooted in the belief that education should extend beyond academic excellence to include the development of character, creativity, and curiosity in every child. The school aims to foster an environment where students are encouraged to explore, inquire, and innovate, enabling them to become lifelong learners and contributors to a global society.")
     # Create three columns
